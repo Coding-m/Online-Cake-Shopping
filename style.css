@@ -1,0 +1,492 @@
+*{
+    margin:0%;
+    padding: 0%;
+}
+
+
+.navbar{
+    background-color: #7d8035;
+    height: 30px;
+    font-size: medium;
+    font-weight: 500;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    justify-items: space-around;
+    margin-right: 3px solid #7d8035 ;s
+}
+.navitem1{
+   
+    
+   background-color: #848738;
+   height: 50px;
+   width: 100%;
+   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    
+    
+}
+
+.currency{
+    background-color: #848738;
+    border: none;
+    color: aliceblue;
+    margin-right: 12px;
+}
+
+.cart{
+    background-color: #848738;
+    width: 50%;
+    height: 50px;
+
+}
+.nav_des{
+    background-color: whitesmoke;
+    height: 45px;
+    display: flex;
+    justify-content:space-around;
+    
+}
+
+.search{
+   align-content: center;
+   height: 40px;
+   width: 390px;
+   border-radius: 5px;
+   border: none;
+   margin-top: 5px;
+   justify-content: center;
+   margin-left: 2px;
+   align-items: center;
+}
+
+#cart{
+    margin-left: 500px;
+}
+
+
+#user{
+    margin-left: 100px;
+}
+
+
+.location{
+    margin-left: 130px;
+    background-color:white;
+    font-size: 15px;
+    color:black;
+    font-weight: 500;
+    text-decoration: none;
+   
+
+}
+
+.nav{
+    background-color:whitesmoke;
+    height:30px;
+    width: auto;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 8px;
+    font-weight: 600;
+}
+.nav:hover{
+    border: 2px solid  #848738 ;
+}
+
+.Cakes{
+    background-color:whitesmoke;
+    height: 70px;
+    margin-top: 16px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:21px;
+    font-weight: 600;
+}
+.text{
+    height: 20px;
+    width: 400px;
+    background-color:whitesmoke;
+    display: flex;
+   align-items: center;
+   
+}
+
+.rate{
+    background-color: green;
+    height: 30px;
+    width: 60px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    border-radius: 2px;
+}
+
+.rating{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    color:aliceblue;
+    font-weight:800;
+    font-size:px;
+    height: 30px;
+    width: 180px;
+    background-color: green;
+    margin-left: 650px;
+    border-radius: 3px;
+}
+
+.hero{
+    height: 900px;
+    width: 100%;
+    background-color: aquamarine;
+}
+
+.container {
+    display: flex; /* Use Flexbox layout */
+    background-size: cover;
+    overflow: none;
+    justify-content: space-between;
+   
+  }
+  .box1{
+      background-color:white;  
+      margin-left: -80px;
+      width: 60%;
+      height: 700px;
+     
+      
+     
+  }
+.box2{
+     background-color: white;
+     width: 60%;
+      height: 700px;
+      margin-left: 10px;
+}
+
+.img1{
+    border-radius: 30px;
+}
+
+
+img:hover{
+    transition: transform 0.3s ease; 
+    transform: scale(1.02);
+}
+
+#img1{
+   border-right: 30px;
+   
+}
+#img3{
+    margin-top: 30px;
+}
+
+#img4{
+    margin-top: 30px;   
+    margin-right: -1000px;
+}
+
+.best{
+    background-color: white;
+    height: 500px;
+}
+
+.t{
+    display: flex;
+    justify-content:center;
+    height: 30px;
+    width: 80px;
+    margin-left:1400px;
+    background-color:#7d8035;
+    color: aliceblue;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.flov{
+    background-color: antiquewhite;
+    height: 500px;
+    width: 100%;
+    border: 5px solid black;
+}
+
+.cake{
+    height: 100px;
+    width: 300px;
+    background-color:white;
+}
+
+.contain {
+    display: flex;
+  }
+  
+  .b{
+    width: 560px;
+    height: 370px;
+    background-color:white;
+    margin-right: 10px; /* Adjust spacing between boxes */
+    border-radius: 8px;
+   
+  }
+
+  .a{
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    background-color:aqua;
+    height: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    align-content: end;
+  }
+
+  .con {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+  }
+  
+  .r{
+    width: 560px;
+    height: 35px;
+    background-color:white;
+    margin-right: 10px; /* Adjust spacing between boxes */
+    display: flex;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    justify-content: center;
+  }
+
+
+  
+.circle {
+    width: 100px; /* Adjust as needed */
+    height: 100px; /* Should be equal to width to make a perfect circle */
+    background-color: #007bff; /* Or any other color you want */
+    border-radius: 50%; /* Makes the element round */
+}
+
+.customer{
+    width: 100%;
+    height: 400px;
+    background-color:white;
+}
+
+.feedback{
+    width: 100%;
+    height: 80px;
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.review{
+    margin-left: 50px;
+    display: flex;
+    justify-content: end;
+    color: #007bff;
+    font-weight: 400;
+}
+
+.feed {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .x{
+    width: 400px;
+    height: 200px;
+    background-color:beige;
+    margin-right: 10px; /* Adjust spacing between boxes */
+  }
+  
+  .star{
+    background-color:white;
+    height: 20px;
+    width: 80px;
+    margin-top: 7px;
+    margin-left: 150px;
+    color:green;
+    display: flex;
+    justify-content: center;
+  }
+
+  .sen{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    width: 260px;
+    margin-left: 14px;
+    background-color:beige;
+    font-style: italic;
+
+  }
+  .sen:hover{
+    color:purple;
+  }
+
+  .name{
+    display: flex;
+    justify-content: end;
+    font-size:15px ;
+    font-weight: 600;
+  }
+
+  .date{
+    display: flex;
+    justify-content:center;
+  }
+
+  .dev{
+    display: flex;
+    justify-content:center;
+    color:darkgray;
+  }
+
+  .About{
+    height: 100px;
+    width: 100%;
+    margin-left: 5px;
+    text-overflow: initial;
+    background-color:white;
+  }
+
+  .footer{
+    height:130px;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+
+  .footpanel1
+{
+    color:black;
+    background:wheat;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+footer{
+    margin-top: 15px;
+}
+
+.footpanel2{
+    background: #222f3d;
+    color: white;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+ul{
+    margin-top: 20px;
+}
+ul a{
+    display: block;
+    font-size: 0.85rm;
+    margin-top: 10px;
+    color: #dddddd;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+
+.footpanel3{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid  white;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+background-image: url("amazonlogo.png");
+height: 50px;
+width: 100px;
+background-size: cover;
+}
+.footpanel4{
+    background:#0f1111;
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+    height: 75px;
+}
+
+.pages{
+    font-size: 0.7rem;
+   
+
+}
+
+.copyright{
+    font-size: 0.7rem;
+  
+}
+
+.country{
+    display: flex;
+    justify-content:space-around;
+    
+    font-size:15px;
+    background-color: #222f3d;
+    color: #dddddd;
+}
+
+.gmail{
+  height: 300px;
+  width: 550px;
+  background-color:rgb(236, 236, 240);
+  margin-left: 500px;
+  z-index: 1;
+  border-bottom: 2px solid silver;
+  border-right: 2px soild silver;
+  margin-top: 100px;
+}
+
+.register{
+  display: flex;
+  justify-content: center;
+}
+.Id{
+  margin-top: 7px;
+  margin-left: 70px;
+  height: 35px;
+  width: 300px;
+}
+
+.continue{
+  height: 50px;
+  width: 300px;
+  background-color:#E87325;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 70px;
+  margin-top: 30px;
+  border-radius: 7px;
+  color: white;
+}
